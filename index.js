@@ -5,9 +5,9 @@ function openOrSenior(data){
   console.log(result);
   for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data[i].length; j++) {
-      if(data[i][j] < 55) {
+      if(data[i][j] < 55 {
         result.push('Open')
-      } else if([i][j + 1] > 7) {
+      } else if(data[i][j] > 7)  && (data[i][j + 1] < 7))  {
         result.push('Senior')
       };
     }
